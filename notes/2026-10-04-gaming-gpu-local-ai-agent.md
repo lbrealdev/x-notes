@@ -1,7 +1,8 @@
 # Source
 
 - Author: [@sudoingX](https://x.com/sudoingX)
-- Article/Post: https://x.com/sudoingX/status/2106704758048485654
+- Article/Post: https://x.com/i/article/2106668877400993793
+- Status: https://x.com/sudoingX/status/2106704758048485654
 - Date: 2026-10-04
 - Title: Yes! your gaming gpu runs an autonomous local ai agent, here is what to run on 8, 12, 16 and 24gb
 
