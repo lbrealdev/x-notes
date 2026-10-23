@@ -1,7 +1,8 @@
 # Source
 
 - Author: [@GithubProjects](https://x.com/GithubProjects)
-- Article/Post: https://x.com/GithubProjects/status/2105189339781087518
+- Article/Post: https://x.com/i/article/2105172336081334272
+- Status: https://x.com/GithubProjects/status/2105189339781087518
 - Date: 2026-09-30
 - Title: 94 Days Until Android Locks Down. 71 Open-Source Groups Are Trying to Stop It.
 
