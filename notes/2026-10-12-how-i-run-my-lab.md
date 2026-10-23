@@ -1,7 +1,8 @@
 # Source
 
 - Author: [@iamMrDuncan](https://x.com/iamMrDuncan)
-- Article/Post: https://x.com/iamMrDuncan/status/2109744566001938923
+- Article/Post: https://x.com/i/article/2109718238506696704
+- Status: https://x.com/iamMrDuncan/status/2109744566001938923
 - Date: 2026-10-12
 - Title: How I run my Lab
 
