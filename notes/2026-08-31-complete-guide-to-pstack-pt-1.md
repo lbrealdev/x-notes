@@ -1,7 +1,8 @@
 # Source
 
 - Author: [@poteto](https://x.com/poteto)
-- Article/Post: https://x.com/poteto/status/2094457600259842065
+- Article/Post: https://x.com/i/article/2094151284949688320
+- Status: https://x.com/poteto/status/2094457600259842065
 - Date: 2026-08-31
 - Title: The Complete Guide to pstack Pt. 1
 
