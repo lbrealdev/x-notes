@@ -43,8 +43,11 @@ Use `notes/_template.md` as the structure. Every committed note must include the
 
 1. **Source** — single section with:
    - **Author** — X username of the post/article author as a clickable link: `[@handle](https://x.com/handle)` (bare `@handle` is not a link in GitHub markdown)
-   - **Article/Post** — canonical X URL (primary attribution). When both a status/share URL and an X article URL exist, this **must** be the `https://x.com/i/article/...` URL
-   - **Status** — optional; the status/share URL (`https://x.com/.../status/...`) when it differs from Article/Post
+   - **Article/Post** — primary attribution URL. Exactly one of:
+     - `https://x.com/i/article/...` when the source is an X Article. The PR title must be `docs(article):`.
+     - the status URL (`https://x.com/<handle>/status/...`) when the page has no article URL. The PR title must be `docs(thread):`.
+     A status URL in Article/Post is the record that no article URL was found. Do not use `docs(article):` for that case.
+   - **Status** — required when Article/Post is an `https://x.com/i/article/...` URL; put the status/share URL here. Omit when Article/Post is already the status URL.
    - **Date** — publication or extraction date (`YYYY-MM-DD`)
    - **Title** — title of the article/thread
 2. **Long summary** — faithful overview of the source
@@ -84,14 +87,22 @@ Do not invent claims, references, or actionables that are not supported by the s
 - Keep the diff limited to the note file(s) plus any unavoidable metadata
 - If extraction fails mid-work, close out without committing invented content
 
+## Review before merge
+
+A checked checklist item is the author's claim, not evidence. This repo has no CI. Before merge, re-fetch the URL in **Article/Post** and, when present, **Status**.
+
+- If that fetch fails, or the page does not show the text the note claims, do not invent a correction and do not merge.
+- Commit only a fix the fetched page proves: Article/Post is a status URL while an article URL is on the page, Status is missing, the title is `docs(article):` while Article/Post is not an article URL, References contain a `t.co` link or a media/CDN asset, or a required section is missing or out of order.
+- Do not rewrite **Long summary**, **Key claims**, or **Actionables** unless the fetched page shows the current text is wrong. If the correction needs prose that is not on the page, stop.
+
 ## Conventional Commits
 
 Use [Conventional Commits](https://www.conventionalcommits.org/) for commit messages and PR titles.
 
 For **new or updated notes**:
 
-- `docs(article): <article title>` — source is an X article
-- `docs(thread): <thread subject>` — source is a thread
+- `docs(article): <article title>` — Article/Post is `https://x.com/i/article/...`
+- `docs(thread): <thread subject>` — Article/Post is a status URL
 - Do **not** put `@handle` in the title; author belongs only in the note Source block
 
 For **other changes**:
