@@ -2,8 +2,8 @@
 
 <!-- Author: use [@handle](https://x.com/handle) so it is clickable; bare @handle is not a link. -->
 - Author: [@handle](https://x.com/handle)
-- Article/Post: https://x.com/i/article/... (use article URL when both status and article exist)
-- Status: https://x.com/.../status/... (optional; only when it differs from Article/Post)
+- Article/Post: https://x.com/i/article/... (title the PR `docs(article):`) or https://x.com/<handle>/status/... when the page has no article URL (title the PR `docs(thread):`)
+- Status: https://x.com/.../status/... (required when Article/Post is an article URL; omit when Article/Post is already the status URL)
 - Date: YYYY-MM-DD
 - Title: Title of the article or thread
 
