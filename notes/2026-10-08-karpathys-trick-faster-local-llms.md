@@ -1,7 +1,8 @@
 # Source
 
 - Author: [@akshay_pachaar](https://x.com/akshay_pachaar)
-- Article/Post: https://x.com/akshay_pachaar/status/2108252095380140203
+- Article/Post: https://x.com/i/article/2108246386538094592
+- Status: https://x.com/akshay_pachaar/status/2108252095380140203
 - Date: 2026-10-08
 - Title: Karpathy’s Trick for Faster Local LLMs, finally has a proper solution
 
