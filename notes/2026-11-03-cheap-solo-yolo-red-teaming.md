@@ -1,7 +1,8 @@
 # Source
 
 - Author: [@otaliptus](https://x.com/otaliptus)
-- Article/Post: https://x.com/otaliptus/status/2117658931732340818
+- Article/Post: https://x.com/i/article/2117658931732340818
+- Status: https://x.com/otaliptus/status/2117658931732340818
 - Date: 2026-11-03
 - Title: cheap solo yolo red teaming
 
